@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reduca.Api", "Reduca.Api\Reduca.Api.csproj", "{F447F95F-B08E-487A-A1E5-AD5AF7770FC4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reduca.Web", "Reduca.Web\Reduca.Web.csproj", "{8C959BA7-6F70-49EE-B606-EE074DE68317}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Reduca", "Api.Reduca\Api.Reduca.csproj", "{A6DD4D3A-8AA0-4BAA-A77F-7E6C0732A462}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F447F95F-B08E-487A-A1E5-AD5AF7770FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F447F95F-B08E-487A-A1E5-AD5AF7770FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F447F95F-B08E-487A-A1E5-AD5AF7770FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F447F95F-B08E-487A-A1E5-AD5AF7770FC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C959BA7-6F70-49EE-B606-EE074DE68317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C959BA7-6F70-49EE-B606-EE074DE68317}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C959BA7-6F70-49EE-B606-EE074DE68317}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C959BA7-6F70-49EE-B606-EE074DE68317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DD4D3A-8AA0-4BAA-A77F-7E6C0732A462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DD4D3A-8AA0-4BAA-A77F-7E6C0732A462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DD4D3A-8AA0-4BAA-A77F-7E6C0732A462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DD4D3A-8AA0-4BAA-A77F-7E6C0732A462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
