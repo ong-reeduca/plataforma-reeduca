@@ -1,11 +1,16 @@
 import React from 'react';
-import classes from './App.css';
+import { Route, Switch } from 'react-router-dom';
+
+import Home from './components/Home/Home';
+import Aux from './hoc/Aux/Aux';
 
 function App() {
   return (
-    <div className={classes.App}>
-      <h3>WebApp Reduca</h3>
-    </div>
+    <Aux>
+      <Switch>
+        <Route path="/" exact component={Home} />
+      </Switch>
+    </Aux>
   );
 }
 
