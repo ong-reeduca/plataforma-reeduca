@@ -8,9 +8,9 @@ namespace Api.Reduca.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class AtividadeController : ControllerBase
     {
-        // GET api/values
+        // GET api/atividade
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
