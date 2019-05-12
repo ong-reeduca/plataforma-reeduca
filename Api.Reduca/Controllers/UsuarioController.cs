@@ -4,18 +4,28 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Api.Reduca.Models;
+using MongoDB.Driver;
 
 namespace Api.Reduca.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("reduca/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
+        private Context context;
+
+        public UsuarioController()
+        {
+            context = new Context();
+        }
+
         // GET: api/Usuario
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Usuario> Get()
         {
-            return new string[] { "value1", "value2" };
+            var usuarios = context.Usuarios.Find(_ => true).ToList();
+            return usuarios;
         }
 
         // GET: api/Usuario/5
@@ -27,8 +37,9 @@ namespace Api.Reduca.Controllers
 
         // POST: api/Usuario
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Usuario usuario)
         {
+            context.Usuarios.InsertOne(usuario);
         }
 
         // PUT: api/Usuario/5
