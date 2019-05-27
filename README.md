@@ -10,3 +10,12 @@ Contém as classes as entidades do projeto
 
 - Api.Reduca.Repository
 Contem as cnonfigurações de acesso a dados, camada de banco
+
+# Ambiente
+
+ASP.Net Core 2.1
+MongoDB 2.8.1.0
+C#
+
+Para rodar o projeto é preciso ter instalado a IDE Visual Studio 2017/2019 ou VSCode
+
