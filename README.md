@@ -23,17 +23,7 @@ Para rodar o projeto é preciso ter instalado a IDE Visual Studio 2017/2019 ou V
 Os projetos devem seguir as diretivas abaixo:
 
 1. Nomes de classes devem ser escritas em português
-2. Classes e propriedades devem conter a documentação ex:  
-/// <summary>
-/// Entidade usuário
-/// </summary>
-public class Usuario
-
-/// <summary>
-/// Nome do usuário
-/// </summary>
-public string Nome { get; set; }
-
+2. Classes e propriedades devem conter a documentação ex:  em cima do nome da classe adicionar Summary incluindo nome da classe e o que representa e na propriedade adicionar Summary e o significado desta propriedade
 3. Nomes de variáveis devem começar com letra minúscula e métodos com letra maiúscula
 4. Utilizar os conceitos de BDD e SOLID, reaproveitamento de código e extensão, justificar bem a criação de Interfaces
 5. Comentários no código apenas se necessário
