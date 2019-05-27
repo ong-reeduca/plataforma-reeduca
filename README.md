@@ -19,7 +19,6 @@ C#
 
 Para rodar o projeto é preciso ter instalado a IDE Visual Studio 2017/2019 ou VSCode
 
-- Padrões
 Os projetos devem seguir as diretivas abaixo:
 
 1. Nomes de classes devem ser escritas em português
